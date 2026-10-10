@@ -3,6 +3,7 @@
 [![README file in English][badge-readme-en]][readme-en]
 [![README file in Brazilian Portuguese][badge-readme-pt-br]][readme-pt-br]
 [![License: BUSL-1.1][badge-license]][license]
+[![REUSE status][badge-reuse]][reuse]
 [![Contributors][badge-contributors]][contributors]
 [![GitHub Sponsors][badge-github-sponsors]][github-sponsors]
 
@@ -27,7 +28,13 @@ project.
 
 ## License
 
-Copyright (c) 2024 IBM Corp.
+Copyright (c) 2024 IBM Corp.<br/>
+IBM, the IBM logo, and ibm.com are trademarks or registered trademarks of
+International Business Machines Corp., registered in many jurisdictions
+worldwide. Other product and service names might be trademarks of IBM or other
+companies. A current list of IBM trademarks is available on the Web at
+[Copyright and trademark information](https://www.ibm.com/legal/copyright-trademark).<br/>
+HashiCorp and the HashiCorp logo are trademarks of HashiCorp, Inc.
 
 Documentation licensed under the
 [Business Source License, Version 1.1][license].<br/>
@@ -37,11 +44,13 @@ The original work was translated from English into Brazilian Portuguese.
 
 [badge-github-sponsors]: https://img.shields.io/github/sponsors/docsdevbr
 
-[badge-license]: https://img.shields.io/badge/license-BUSL--1.1-green
+[badge-license]: https://img.shields.io/badge/license-BUSL--1.1-blue
 
 [badge-readme-en]: https://img.shields.io/badge/lang-en-blue
 
-[badge-readme-pt-br]: https://img.shields.io/badge/lang-pt--br-blue
+[badge-readme-pt-br]: https://img.shields.io/badge/lang-pt--br-dark--green
+
+[badge-reuse]: https://api.reuse.software/badge/github.com/docsdevbr/hashicorp-web-unified-docs-pt-br
 
 [code-of-conduct]: https://github.com/docsdevbr/.github/blob/main/CODE_OF_CONDUCT.EN.md
 
@@ -53,10 +62,12 @@ The original work was translated from English into Brazilian Portuguese.
 
 [license]: LICENSES/BUSL-1.1.txt
 
-[page]: https://pt.docs.dev.br/tech/h/hashicorp/
+[page]: https://pt.docs.dev.br/tech/h/hashicorp/index.html
 
 [readme-en]: README.EN.md
 
 [readme-pt-br]: README.md
 
-[sponsor]: https://en.docs.dev.br/sponsor
+[reuse]: https://api.reuse.software/info/github.com/docsdevbr/hashicorp-web-unified-docs-pt-br
+
+[sponsor]: https://en.docs.dev.br/sponsor.html
