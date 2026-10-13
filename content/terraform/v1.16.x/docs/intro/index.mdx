@@ -1,0 +1,160 @@
+---
+# Copyright (c) 2024 IBM Corp.
+# IBM, the IBM logo, and ibm.com are trademarks or registered trademarks of
+# International Business Machines Corp., registered in many jurisdictions
+# worldwide. Other product and service names might be trademarks of IBM or other
+# companies. A current list of IBM trademarks is available on the web at
+# https://www.ibm.com/legal/copyright-trademark.
+# HashiCorp and the HashiCorp logo are trademarks of HashiCorp, Inc. Other
+# product and service names might be trademarks of HashiCorp or other companies.
+# A current list of HashiCorp trademarks is available on the web at
+# https://www.hashicorp.com/en/trademark-policy.
+#
+# SPDX-License-Identifier: BUSL-1.1
+# Documentation licensed under the Business Source License, Version 1.1.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/docsdevbr/hashicorp-web-unified-docs-pt-br/blob/-/LICENSES/BUSL-1.1.txt
+
+source_url: https://github.com/hashicorp/web-unified-docs/blob/main/content/terraform/v1.16.x/docs/intro/index.mdx
+source_revision: 4616e3f3cee59b68c914fca1599ee9374f2cb752
+translation_status: ready
+
+layout: "intro"
+page_title: O que é o Terraform
+sidebar_current: "what"
+description: >-
+  O Terraform é uma ferramenta de infraestrutura como código que permite criar,
+  alterar e versionar recursos locais e na nuvem com segurança e eficiência.
+# START AUTO GENERATED METADATA, DO NOT EDIT
+created_at: 2025-11-19T19:11:19Z
+last_modified: 2025-11-19T19:11:19Z
+# END AUTO GENERATED METADATA
+---
+
+# O que é o Terraform?
+
+O HashiCorp Terraform é uma ferramenta de infraestrutura como código que permite
+definir recursos locais e na nuvem em arquivos de configuração legíveis por
+pessoas, que você pode versionar, reutilizar e compartilhar.
+Você pode então utilizar um fluxo de trabalho consistente para provisionar e
+gerenciar toda a sua infraestrutura ao longo de seu ciclo de vida.
+O Terraform pode gerenciar componentes de baixo nível, como recursos de
+computação, armazenamento e rede, bem como componentes de alto nível, como
+entradas de DNS e recursos de SaaS.
+
+> **Prática:** Experimente os tutoriais de introdução para começar a gerenciar
+> infraestrutura em provedores de nuvem populares:
+> [Amazon Web Services](/terraform/tutorials/aws-get-started),
+> [Azure](/terraform/tutorials/azure-get-started),
+> [Google Cloud Platform](/terraform/tutorials/gcp-get-started),
+> [Oracle Cloud Infrastructure](/terraform/tutorials/oci-get-started) e
+> [Docker](/terraform/tutorials/docker-get-started).
+
+Armon Dadgar, cofundador da HashiCorp, explica como o Terraform resolve os
+desafios de infraestrutura.
+
+<VideoEmbed url="https://www.youtube.com/embed/ZFLWA1kQ3ls"/>
+
+## Como o Terraform funciona?
+
+O Terraform cria e gerencia recursos em plataformas de nuvem e outros serviços
+por meio de suas interfaces de programação de aplicações (APIs).
+Os provedores permitem que o Terraform trabalhe com praticamente qualquer
+plataforma ou serviço que possua uma API acessível.
+
+![O Terraform cria e gerencia plataformas e serviços de nuvem por meio de suas APIs](/img/docs/intro-terraform-apis.png)
+
+A HashiCorp e a comunidade Terraform já criaram **milhares de provedores** para
+gerenciar diversos tipos de recursos e serviços.
+Você pode encontrar todos os provedores disponíveis publicamente no
+[Terraform Registry](https://registry.terraform.io/), incluindo Amazon Web
+Services (AWS), Azure, Google Cloud Platform (GCP), Kubernetes, Helm, GitHub,
+Splunk, DataDog e muitos outros.
+
+O fluxo de trabalho principal do Terraform consiste em três etapas:
+
+- **Write (Escrever):** você define recursos, que podem abranger múltiplos
+  provedores de nuvem e serviços.
+  Por exemplo, você pode criar uma configuração para implantar uma aplicação em
+  máquinas virtuais em uma rede Virtual Private Cloud (VPC), com grupos de
+  segurança e um balanceador de carga.
+- **Plan (Planejar):** o Terraform cria um plano de execução descrevendo a
+  infraestrutura que será criada, atualizada ou destruída, com base na
+  infraestrutura existente e na sua configuração.
+- **Apply (Aplicar):** após a aprovação, o Terraform executa as operações
+  propostas na ordem correta, respeitando quaisquer dependências entre recursos.
+  Por exemplo, se você atualizar as propriedades de uma VPC e alterar o número
+  de máquinas virtuais nela, o Terraform recriará a VPC antes de escalar as
+  máquinas virtuais.
+
+![O fluxo de trabalho do Terraform possui três etapas: Escrever, Planejar e Aplicar](/img/docs/intro-terraform-workflow.png)
+
+## Por que usar o Terraform?
+
+O Terraform permite definir e gerenciar sua infraestrutura de maneira
+consistente e repetível, utilizando arquivos de configuração legíveis por
+pessoas que você pode versionar, reutilizar e compartilhar.
+
+### Gerencie qualquer infraestrutura
+
+Encontre provedores para muitas das plataformas e serviços que você já utiliza
+no [Terraform Registry](https://registry.terraform.io/).
+Você também pode [criar o seu próprio provedor](/terraform/plugin).
+O Terraform adota uma
+[abordagem de infraestrutura imutável](https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-immutable-infrastructure),
+reduzindo a complexidade de atualizar ou modificar seus serviços e
+infraestrutura.
+
+### Monitore sua infraestrutura
+
+O Terraform gera um plano e solicita sua aprovação antes de modificar a
+infraestrutura.
+Ele também mantém o registro da sua infraestrutura real em um
+[arquivo de estado](/terraform/language/state), que atua como a fonte da verdade
+para o seu ambiente.
+O Terraform utiliza esse arquivo de estado para determinar quais alterações
+devem ser feitas na infraestrutura para que ela corresponda à sua configuração.
+
+### Automatize alterações
+
+Os arquivos de configuração do Terraform são declarativos, o que significa que
+descrevem o estado final da sua infraestrutura.
+Você não precisa escrever instruções passo a passo para criar recursos, pois o
+Terraform cuida da lógica subjacente.
+O Terraform constrói um grafo de recursos para determinar as dependências entre
+eles e cria ou modifica recursos independentes em paralelo.
+Isso permite que o Terraform provisione recursos de forma eficiente.
+
+### Padronize configurações
+
+O Terraform oferece suporte a componentes de configuração reutilizáveis chamados
+[módulos](/terraform/language/modules), que definem conjuntos configuráveis de
+infraestrutura, economizando tempo e incentivando as melhores práticas.
+Você pode usar módulos disponíveis publicamente no Terraform Registry ou criar
+os seus próprios.
+
+### Colabore
+
+Como sua configuração é escrita em um arquivo, você pode fazer o commit para um
+sistema de controle de versão (VCS) e usar o
+[HCP Terraform](/terraform/intro/terraform-editions#hcp-terraform) para
+gerenciar com eficiência os fluxos de trabalho do Terraform entre equipes.
+O HCP Terraform executa o Terraform em um ambiente consistente e confiável,
+oferecendo acesso seguro a estados compartilhados e dados sensíveis, controles
+de acesso baseados em funções, um registro privado para compartilhar módulos e
+provedores, entre outros recursos.
+
+-> **Dica:** Saiba mais sobre os
+[casos de uso do Terraform](/terraform/intro/use-cases)
+e [como o Terraform se compara a alternativas](/terraform/intro/vs).
+
+## Comunidade
+
+Recebemos com satisfação perguntas, sugestões e contribuições da comunidade.
+
+- Faça perguntas no
+  [HashiCorp Discuss](https://discuss.hashicorp.com/c/terraform-core/27).
+- Leia nosso
+  [guia de contribuição](https://github.com/hashicorp/terraform/blob/main/.github/CONTRIBUTING.md).
+- [Abra uma issue](https://github.com/hashicorp/terraform/issues/new/choose)
+  para relatar falhas ou solicitar novas funcionalidades.
