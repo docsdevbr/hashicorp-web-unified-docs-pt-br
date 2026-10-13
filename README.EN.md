@@ -32,9 +32,12 @@ Copyright (c) 2024 IBM Corp.<br/>
 IBM, the IBM logo, and ibm.com are trademarks or registered trademarks of
 International Business Machines Corp., registered in many jurisdictions
 worldwide. Other product and service names might be trademarks of IBM or other
-companies. A current list of IBM trademarks is available on the Web at
-[Copyright and trademark information](https://www.ibm.com/legal/copyright-trademark).<br/>
-HashiCorp and the HashiCorp logo are trademarks of HashiCorp, Inc.
+companies. A current list of IBM trademarks is available on the web at
+[Copyright and trademark information][trademark-ibm].<br/>
+HashiCorp and the HashiCorp logo are trademarks of HashiCorp, Inc. Other product
+and service names might be trademarks of HashiCorp or other companies. A current
+list of HashiCorp trademarks is available on the web at
+[Trademark Policy][trademark-hashicorp].
 
 Documentation licensed under the
 [Business Source License, Version 1.1][license].<br/>
@@ -71,3 +74,7 @@ The original work was translated from English into Brazilian Portuguese.
 [reuse]: https://api.reuse.software/info/github.com/docsdevbr/hashicorp-web-unified-docs-pt-br
 
 [sponsor]: https://en.docs.dev.br/sponsor.html
+
+[trademark-ibm]: https://www.ibm.com/legal/copyright-trademark
+
+[trademark-hashicorp]: https://www.hashicorp.com/en/trademark-policy

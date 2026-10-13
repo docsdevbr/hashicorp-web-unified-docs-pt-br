@@ -32,10 +32,13 @@ Copyright (c) 2024 IBM Corp.<br/>
 IBM, o logotipo da IBM e ibm.com são marcas comerciais ou marcas registradas da
 International Business Machines Corp., registradas em muitas jurisdições em todo
 o mundo. Outros nomes de produtos e serviços podem ser marcas comerciais da IBM
-ou de outras empresas. Uma lista atual das marcas comerciais da IBM está
+ou de outras empresas. Uma lista atualizada das marcas comerciais da IBM está
 disponível na web em
-[Informações sobre direitos autorais e marcas comerciais](https://www.ibm.com/legal/copyright-trademark).<br/>
+[Copyright and trademark information][trademark-ibm].<br/>
 HashiCorp e o logotipo da HashiCorp são marcas comerciais da HashiCorp, Inc.
+Outros nomes de produtos e serviços podem ser marcas comerciais da HashiCorp ou
+de outras empresas. Uma lista atualizada das marcas comerciais da HashiCorp está
+disponível na web em [Trademark Policy][trademark-hashicorp].
 
 Documentação licenciada sob a
 [Business Source License, Versão 1.1][license].<br/>
@@ -72,3 +75,7 @@ A obra original foi traduzida do inglês para o português brasileiro.
 [reuse]: https://api.reuse.software/info/github.com/docsdevbr/hashicorp-web-unified-docs-pt-br
 
 [sponsor]: https://pt.docs.dev.br/sponsor.html
+
+[trademark-ibm]: https://www.ibm.com/legal/copyright-trademark
+
+[trademark-hashicorp]: https://www.hashicorp.com/en/trademark-policy
