@@ -4,8 +4,8 @@
 [![Arquivo README em português brasileiro][badge-readme-pt-br]][readme-pt-br]
 [![Licença: BUSL-1.1][badge-license]][license]
 [![Status do REUSE][badge-reuse]][reuse]
-[![Pessoas contribuidoras][badge-contributors]][contributors]
-[![GitHub Sponsors][badge-github-sponsors]][github-sponsors]
+[![Pessoas apoiadoras no Liberapay][badge-liberapay]][profile-liberapay]
+[![Pessoas patrocinadoras do GitHub][badge-github-sponsors]][profile-github-sponsors]
 
 Tradução da documentação da HashiCorp para português brasileiro.
 
@@ -23,8 +23,38 @@ comunidade.
 
 ## Apoio
 
-Visite nossa [página para pessoas apoiadoras][sponsor] para saber como você pode
-apoiar o projeto.
+Obrigado por considerar apoiar este projeto!
+
+Manter uma documentação abrangente, traduções localizadas e ferramentas para
+pessoas desenvolvedoras é um esforço contínuo.
+Seu apoio cobre diretamente os custos de infraestrutura, a manutenção do domínio
+e a criação de ferramentas automatizadas que mantêm esses recursos rápidos,
+confiáveis e gratuitos para todas as pessoas.
+
+Cada contribuição, independentemente do valor, garante que o conhecimento
+permaneça aberto, gratuito e acessível a todas as pessoas.
+
+### Como seu apoio ajuda
+
+- **Infraestrutura e hospedagem:** mantém a documentação rápida, confiável e
+  disponível 24 horas por dia, 7 dias por semana.
+- **Ferramentas da comunidade e automação:** impulsiona fluxos de tradução que
+  mantêm a documentação local sincronizada com as versões oficiais.
+- **Capacitação de pessoas desenvolvedoras:** reduz barreiras de entrada para
+  falantes do português em toda a comunidade.
+- **Sustentabilidade do projeto:** financia a manutenção, as traduções contínuas
+  e o trabalho dedicado para manter o projeto saudável.
+
+### Formas de contribuir
+
+Visite nossa [Página de apoio][sponsor-page] para obter detalhes completos ou
+escolha sua plataforma preferida abaixo:
+
+- **Apoio recorrente:** apoie-nos no [Liberapay][profile-liberapay] ou
+  [GitHub Sponsors][profile-github-sponsors].
+- **Contribuição única:** Faça uma contribuição direta via [Pix][pix-qrcode].
+
+Obrigado pelo seu apoio!
 
 ## Licença
 
@@ -44,9 +74,9 @@ Documentação licenciada sob a
 [Business Source License, Versão 1.1][license].<br/>
 A obra original foi traduzida do inglês para o português brasileiro.
 
-[badge-contributors]: https://img.shields.io/github/contributors/docsdevbr/hashicorp-web-unified-docs-pt-br
-
 [badge-github-sponsors]: https://img.shields.io/github/sponsors/docsdevbr
+
+[badge-liberapay]: https://img.shields.io/liberapay/patrons/docsdev
 
 [badge-license]: https://img.shields.io/badge/license-BUSL--1.1-blue
 
@@ -54,27 +84,29 @@ A obra original foi traduzida do inglês para o português brasileiro.
 
 [badge-readme-pt-br]: https://img.shields.io/badge/lang-pt--br-dark--green
 
-[badge-reuse]: https://api.reuse.software/badge/github.com/docsdevbr/hashicorp-web-unified-docs-pt-br
+[badge-reuse]: https://api.reuse.software/badge/codeberg.org/docsdev/hashicorp-web-unified-docs-pt-br
 
 [code-of-conduct]: https://github.com/docsdevbr/.github/blob/main/CODE_OF_CONDUCT.md
 
 [contributing]: https://github.com/docsdevbr/.github/blob/main/CONTRIBUTING.md
 
-[contributors]: https://github.com/docsdevbr/hashicorp-web-unified-docs-pt-br/graphs/contributors
-
-[github-sponsors]: https://github.com/sponsors/docsdevbr
-
 [license]: LICENSES/BUSL-1.1.txt
 
 [page]: https://pt.docs.dev.br/tech/h/hashicorp/index.html
+
+[pix-qrcode]: https://media.docs.dev.br/d/docs.dev.br/sponsor/pix-qrcode.png
+
+[profile-github-sponsors]: https://github.com/sponsors/docsdevbr
+
+[profile-liberapay]: https://liberapay.com/docsdev/
 
 [readme-en]: README.EN.md
 
 [readme-pt-br]: README.md
 
-[reuse]: https://api.reuse.software/info/github.com/docsdevbr/hashicorp-web-unified-docs-pt-br
+[reuse]: https://api.reuse.software/info/codeberg.org/docsdev/hashicorp-web-unified-docs-pt-br
 
-[sponsor]: https://pt.docs.dev.br/sponsor.html
+[sponsor-page]: https://pt.docs.dev.br/sponsor.html
 
 [trademark-ibm]: https://www.ibm.com/legal/copyright-trademark
 
