@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **Este repositório foi transferido para o Codeberg.**<br/>
+> O desenvolvimento, as _issues_ e os _pull requests_ agora são gerenciados em
+> **[docsdev/hashicorp-web-unified-docs-pt-br](https://codeberg.org/docsdev/hashicorp-web-unified-docs-pt-br)**.
+
 # [hashicorp-web-unified-docs-pt-br][page]
 
 [![Arquivo README em inglês][badge-readme-en]][readme-en]

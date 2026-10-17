@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **This repository has moved to Codeberg.**<br/>
+> Development, issues, and pull requests are now tracked at
+> **[docsdev/hashicorp-web-unified-docs-pt-br](https://codeberg.org/docsdev/hashicorp-web-unified-docs-pt-br)**.
+
 # [hashicorp-web-unified-docs-pt-br][page]
 
 [![README file in English][badge-readme-en]][readme-en]
